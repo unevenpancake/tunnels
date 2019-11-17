@@ -12,7 +12,7 @@ ssh-keygen -t ed25519
 ```
 ssh-copy-id centos@54.165.252.132
 ```
-
+```
 ssh -L 8080:localhost:9090 centos@54.165.252.134#Go out to a box and connect to a "hidden" service
 ssh -R 2222:localhost:22 #Reverse shell out
 ssh -D 1337 #Make all of your traffic behave as though it were coming from a different box (SOCKS5)
