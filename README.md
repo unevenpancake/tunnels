@@ -283,6 +283,7 @@ sudo openvpn client.ovpn
 ```
 
 ## Wireguard
+```
 sudo yum update -y
 sudo reboot # unless there were no updates
 sudo curl -Lo /etc/yum.repos.d/wireguard.repo https://copr.fedorainfracloud.org/coprs/jdoss/wireguard/repo/epel-7/jdoss-wireguard-epel-7.repo
@@ -311,3 +312,4 @@ sudo wg set wg0 private-key ./privatekey peer LYhSr2Q3mQcEVijh/nHZ44zk8SWQIqnYM7
 sudo wg showconf wg0
 sudo ip link set up dev wg0
 #wg show
+```
